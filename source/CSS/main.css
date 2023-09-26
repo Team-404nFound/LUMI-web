@@ -1,3 +1,9 @@
+@font-face { font-family: Raleway; src: source/font/Raleway;} 
+
+body{
+    font-family: Raleway;
+    font-size:medium;
+}
 .brandBlue{
     background-color: #001d42;
 }
@@ -11,5 +17,5 @@
 }
 
 .logo{
-    height: 5rem;
+    height: 3rem;
 }
