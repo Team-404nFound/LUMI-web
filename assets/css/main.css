@@ -3499,6 +3499,7 @@ input[type="button"].btn-block {
   list-style: none; }
 
 .nav-link {
+  color: rgba(255, 255, 255, 0.8) !important;
   display: block;
   padding: 0.8rem 1rem; }
   .nav-link:hover, .nav-link:focus {
