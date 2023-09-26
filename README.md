@@ -6,6 +6,13 @@ Free HTML Bootstrap Blogging Template by [Sal](https://www.wowthemes.net).
 
 [![screenshot](assets/img/screenshot-mundana.png)](https://wowthemesnet.github.io/template-mundana-bootstrap-html/)
 
+## Dictionary guide
+
+*```assets```* is intergrated by templete, include css, img and things
+
+*```source```* is 404 and lumi's css img so on
+
+*```index.html```* is main page of everything
 ## Getting Started
 
 * [Theme Details](https://www.wowthemes.net/mundana-free-html-bootstrap-template/)
