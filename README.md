@@ -40,4 +40,4 @@ Let's make this even better!
 - Create a branch off of master and give it a meaningful name (e.g. my-new-feature).
 - Open a pull request on GitHub and describe the feature or fix.
 
-Thank you for your support!
+Thank you for your support!.
