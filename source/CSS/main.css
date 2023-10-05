@@ -5,7 +5,7 @@ body{
     font-size:medium;
 }
 
-.brandBlue{
+.brandBlue-bg{
     background-color: #001d42;
 }
 
@@ -13,10 +13,12 @@ body{
     background-color: #185098;
 }
 
-.brandYellow{
-    color: #eaaa00 !important;
+.brandYellow-bg{
+    background-color: #eaaa00;
 }
 
 .logo{
     height: 3rem;
 }
+
+
