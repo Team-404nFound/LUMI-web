@@ -1,10 +1,8 @@
-# Mundana - Free Bootstrap HTML Blogging Template
+# LUMI Link Web page
 
-Free HTML Bootstrap Blogging Template by [Sal](https://www.wowthemes.net).
+## view the page
 
-[Live Demo](https://wowthemesnet.github.io/template-mundana-bootstrap-html/) &nbsp; | &nbsp; [Download](https://github.com/wowthemesnet/template-mundana-bootstrap-html/archive/master.zip)
-
-[![screenshot](assets/img/screenshot-mundana.png)](https://wowthemesnet.github.io/template-mundana-bootstrap-html/)
+[Link](https://team-404nfound.github.io/LUMI-web/)
 
 ## Dictionary guide
 
@@ -13,18 +11,28 @@ Free HTML Bootstrap Blogging Template by [Sal](https://www.wowthemes.net).
 *```source```* is 404 and lumi's css img so on
 
 *```index.html```* is main page of everything
-## Getting Started
+
+
+## Mundana - Free Bootstrap HTML Blogging Template
+
+Free HTML Bootstrap Blogging Template by [Sal](https://www.wowthemes.net).
+
+[Live Demo](https://wowthemesnet.github.io/template-mundana-bootstrap-html/) &nbsp; | &nbsp; [Download](https://github.com/wowthemesnet/template-mundana-bootstrap-html/archive/master.zip)
+
+[![screenshot](assets/img/screenshot-mundana.png)](https://wowthemesnet.github.io/template-mundana-bootstrap-html/)
+
+### Getting Started
 
 * [Theme Details](https://www.wowthemes.net/mundana-free-html-bootstrap-template/)
 * [Documentation](https://wowthemesnet.github.io/template-mundana-bootstrap-html/docs.html).
 
-## Built With
+### Built With
 
 * [Bootstrap](https://github.com/twbs/bootstrap)
 * [Gulp](https://gulpjs.com/)
 * [SASS](https://sass-lang.com/)
 
-## Copyright
+### Copyright
 
 Copyright (C) 2019 WowThemes.net.
 
@@ -32,7 +40,7 @@ Designed and developed by [Sal](https://www.wowthemes.net), *free* under MIT lic
 
 <a href="https://www.buymeacoffee.com/sal" target="_blank"><img src="https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png" alt="Buy Me A Coffee" style="height: auto !important;width: auto !important;" ></a>
 
-## Contribute
+### Contribute
 
 Let's make this even better!
 
