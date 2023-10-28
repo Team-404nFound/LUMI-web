@@ -21,4 +21,29 @@ body{
     height: 3rem;
 }
 
+.teamBg{
+    align-self: center;
+    justify-self: center;
+    max-height: 35rem;
+}
 
+.team{
+    position: absolute;
+}
+
+#team .c{
+    align-self: center;
+    justify-self: center;
+    width: 6em;
+    transition: all 0.5s ease;
+}
+
+.c:hover{
+    transform: scale(1.1);
+}
+
+#team{
+    position: relative;
+    display: grid;
+    height: 35rem;
+}
