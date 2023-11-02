@@ -15,6 +15,7 @@
 <!-- Main CSS -->
 <link href="./assets/css/main.css" rel="stylesheet"/>
 <link rel="stylesheet" type="text/css" href="source/CSS/main.css" />
+<script src="source/JS/main.js" type="text/javascript"></script>
 </head>
 <body>
 <!--------------------------------------
@@ -61,10 +62,10 @@ NAVBAR
 
 
 <!-- MAIN -->
-<div style="display: grid;">
+<div id="teamMain" style="position: relative;">
 	<div id="team">
-		<a class="team person p0" href="peoples/ana.html"><img class="rounded-circle" src="source/img/people/avatar/shd.png"></a>
-		<a class="team person p1" href="peoples/ana.html"><img class="rounded-circle" src="source/img/people/avatar/bru.jpg"></a>
+		<a class="team person p0" href="peoples/shd.html"><img class="rounded-circle" src="source/img/people/avatar/shd.png"></a>
+		<a class="team person p1" href="peoples/shd.html"><img class="rounded-circle" src="source/img/people/avatar/bru.jpg"></a>
 		<a class="team person p2" href="peoples/ana.html"><img class="rounded-circle" src="source/img/people/avatar/kat.jpg"></a>
 		<a class="team person p3" href="peoples/ana.html"><img class="rounded-circle" src="source/img/people/avatar/rac.jpg"></a>
 		<a class="team person p4" href="peoples/ana.html"><img class="rounded-circle" src="source/img/people/avatar/shl.jpg"></a>
@@ -81,6 +82,8 @@ NAVBAR
 		<a class="team person pf" href="peoples/ana.html"><img class="rounded-circle" src="source/img/people/avatar/dun.jpg"></a>
 		<a class="team c " href="peoples/ana.html"><img class="rounded-circle" src="source/img/people/avatar/ana.png"></a>
 	</div>
+	<div id="preview" style="display: none;" role="preview">
+		<iframe id="frame" src="peoples/preview/ana.html"></iframe>
 </div>
 
 <!-- END MAIN -->
@@ -126,5 +129,6 @@ JAVASCRIPTS
 <script src="./assets/js/vendor/popper.min.js" type="text/javascript"></script>
 <script src="./assets/js/vendor/bootstrap.min.js" type="text/javascript"></script>
 <script src="./assets/js/functions.js" type="text/javascript"></script>
+<script src="source/JS/main.js" type="text/javascript"></script>
 </body>
 </html>

@@ -21,6 +21,12 @@ body{
     height: 3rem;
 }
 
+
+#teamMain{
+    display: grid;
+    transition: all 5s ease;
+}
+
 .teamBg{
     position: absolute;
     max-height: 35rem;
@@ -41,8 +47,10 @@ body{
     transition: all 0.5s ease;
 }
 
-#team .person{width:3em;
-    transition: all 0.5s ease;}
+#team .person{
+    width:3em;
+    transition: all 0.5s ease;
+}
 
 #team .p0{grid-area: p0;}
 #team .p1{grid-area: p1;}
@@ -65,7 +73,24 @@ body{
     transform: scale(1.2);
 }
 
+#preview{
+    position: absolute;
+    top:0;
+    right: 4rem;
+    height: 100%;
+    z-index: -1;
+    transition: all 2s ease;
+    opacity:0;
+}
+
+#preview iframe{
+    border: 0;
+    height: 100%;
+}
+
 #team{
+    transition: all 2s ease;
+
     height: 35rem;
     width: 35rem;
 
@@ -83,11 +108,11 @@ body{
     grid:
         'p0 p0 .. .. .. .. .. p4 p4'
         'p0 p0 p1 p1 .. p3 p3 p4 p4'
-        '.. p5 .. .. p2 .. .. pf ..'
-        '.. p5 .. .. .. .. .. pf ..'
-        '.. .. p6 .. cc .. pe .. ..'
-        '.. p7 .. .. .. .. .. pd ..'
-        '.. p7 .. .. pa .. .. pd ..'
-        'p8 p8 p9 p9 .. pb pb pc pc'
-        'p8 p8 .. .. .. .. .. pc pc';
+        '.. pf .. .. p2 .. .. p5 ..'
+        '.. pf .. .. .. .. .. p5 ..'
+        '.. .. pe .. cc .. p6 .. ..'
+        '.. pd .. .. .. .. .. p7 ..'
+        '.. pd .. .. pa .. .. p7 ..'
+        'pc pc pb pb .. p9 p9 p8 p8'
+        'pc pc .. .. .. .. .. p8 p8';
 }
