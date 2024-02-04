@@ -21,4 +21,145 @@ body{
     height: 3rem;
 }
 
+.news-brief{
+    margin: auto;
+    margin-bottom: 7rem;
+    display: grid;
+    grid: 
+        'p t t'
+        'p c c';
+    height: 10rem;
+    width: 50rem;
+}
 
+.news-brief .news-p{grid-area: p;}
+.news-brief .news-t{grid-area: t;}
+.news-brief .news-c{grid-area: c;}
+
+.news-t{
+    font-size: 1rem;
+}
+
+.news-title{
+    font-size: 2rem;
+}
+
+.news-p{
+    width: 14rem !important;
+    max-width: 9999px !important;
+    margin-right: 15px;
+    height: 14rem !important;
+    object-fit: cover;
+    border-radius: 2rem;
+}
+
+.news-c{
+    overflow: hidden;
+    height: 8ch;
+    opacity: 0.5;
+}
+
+.newsJ{
+    color:black;
+    text-decoration: none;
+}
+
+.newsJ:hover{
+    opacity: 0.7;
+    color:black;
+    text-decoration: none;
+}
+
+<<<<<<< Updated upstream
+=======
+#teamMain{
+    display: grid;
+    transition: all 5s ease;
+}
+
+.teamBg{
+    position: absolute;
+    max-height: 35rem;
+}
+
+#team a{
+    align-self: center;
+    justify-self: center;
+}
+
+#team .c{
+    grid-area: cc;
+    width: 6em;
+    transition: all 0.5s ease;
+}
+
+#team .person{
+    width:3em;
+    transition: all 0.5s ease;
+}
+
+#team .p0{grid-area: p0;}
+#team .p1{grid-area: p1;}
+#team .p2{grid-area: p2;}
+#team .p3{grid-area: p3;}
+#team .p4{grid-area: p4;}
+#team .p5{grid-area: p5;}
+#team .p6{grid-area: p6;}
+#team .p7{grid-area: p7;}
+#team .p8{grid-area: p8;}
+#team .p9{grid-area: p9;}
+#team .pa{grid-area: pa;}
+#team .pb{grid-area: pb;}
+#team .pc{grid-area: pc;}
+#team .pd{grid-area: pd;}
+#team .pe{grid-area: pe;}
+#team .pf{grid-area: pf;}
+
+.c:hover, .person:hover{
+    transform: scale(1.2);
+}
+
+#preview{
+    position: absolute;
+    top:0;
+    right: 4rem;
+    height: 100%;
+    z-index: -1;
+    transition: all 2s ease;
+    opacity:0;
+}
+
+#preview iframe{
+    border: 0;
+    height: 100%;
+}
+
+#team{
+    transition: all 2s ease;
+
+    height: 35rem;
+    width: 35rem;
+
+    background-image: url("../img/customcolor_icon_transparent_background.png");
+    background-position: center center;
+    background-size: contain;
+    background-repeat: no-repeat;
+
+    position: relative;
+
+    align-self: center;
+    justify-self: center;
+
+    display: grid;
+    grid:
+        'p0 p0 .. .. .. .. .. p4 p4'
+        'p0 p0 p1 p1 .. p3 p3 p4 p4'
+        '.. pf .. .. p2 .. .. p5 ..'
+        '.. pf .. .. .. .. .. p5 ..'
+        '.. .. pe .. cc .. p6 .. ..'
+        '.. pd .. .. .. .. .. p7 ..'
+        '.. pd .. .. pa .. .. p7 ..'
+        'pc pc pb pb .. p9 p9 p8 p8'
+        'pc pc .. .. .. .. .. p8 p8';
+}
+>>>>>>> Stashed changes
