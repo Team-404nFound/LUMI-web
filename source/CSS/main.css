@@ -70,8 +70,6 @@ body{
     text-decoration: none;
 }
 
-<<<<<<< Updated upstream
-=======
 #teamMain{
     display: grid;
     transition: all 5s ease;
@@ -162,4 +160,3 @@ body{
         'pc pc pb pb .. p9 p9 p8 p8'
         'pc pc .. .. .. .. .. p8 p8';
 }
->>>>>>> Stashed changes
